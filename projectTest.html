@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="calculator.js" defer></script>
+  <style>
+  
+  </style>
+</head>
+<body class = "bg-dark text-light">
+  <div class= "container w-50 pt-5">
+    <h1>calculator</h1>
+  
+  <input 
+    class="form-control mb-2"
+    type = 'number' 
+    placeholder="Enter 1 number" 
+    id="input1" 
+    value="10"
+    />
+    <input 
+    class="form-control mb-2"
+    type = 'number' 
+    placeholder="Enter 2 number" 
+    id="input2" 
+    value="5"
+    />
+    <div class="d-flex mb-2">
+
+      <button class="btn btn-success flex-grow-1 mx-2" id="plus">Add</button>
+      <button class="btn btn-danger flex-grow-1 mx-2" id="minus">Unadd</button>
+
+    </div>
+
+    <button class= 'btn-outline-info w-100 mb-2' id="sumbit">Resoult</button>
+    
+    <div class="text-bg-light p-3 text-center">
+        <h4>Resoult</h4>
+        <p id="resoult" class="mb-0">49</p>
+      
+      </div>
+    </div>
+  </body>
+</html>
